@@ -22,7 +22,7 @@ VALUES
     'L003', 'Intel Core Ultra 7 155H', 16, 22, 1400, 4800, 32, 'LPDDR5x',
   8533, 32, 2048, 14, '2880x1880', 60, 'OLED', 'Intel Arc Graphics',
   'Quad Speakers B&O', '2x Thunderbolt 4, 1x USB-A, 1x 3.5mm Audio', 'Wi-Fi 6E, Bluetooth 5.3',
-  '4K Webcam', '2-in-1 Convertible', 'Yes', '12.4 x 8.7 x 0.7 inches', 1.45, 'Aluminum',
+  '4K Webcam', '2-in-1 Convertible', 'Yes', '12.4 x 8.7 x 0.7 inches', 1450, 'Aluminum',
   '11+ hours', 'Windows 11', '2024-01-15'
 ),
 
