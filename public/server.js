@@ -9,7 +9,7 @@ const config = {
     user: 'your_username',
     password: 'your_password',
     server: 'localhost',
-    database: 'your_database_name',
+    database: 'Lab5_bai1',
     options: {
         encrypt: false,
         trustServerCertificate: true

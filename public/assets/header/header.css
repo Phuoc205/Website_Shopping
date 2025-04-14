@@ -39,11 +39,14 @@
 }
 
 .header_middle_logo {
-    height: 90px;
+    /* height: 200%;
+    width: auto; */
+    padding-left: 40px;
+}
+
+.logo_shop {
+    height: 100%;
     width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .header_middle_logo img {
