@@ -39,7 +39,7 @@ VALUES
   'Stereo Speakers', '2x Thunderbolt 4, 2x USB-A, 1x HDMI, 1x RJ-45, 1x 3.5mm Audio',
   'Wi-Fi 6E, Bluetooth 5.2', 'HD Webcam', 'ThinkShutter Privacy Cover',
   'Yes', '315.9 x 223.7 x 17.7 mm', 1310, 'Carbon Fiber', 52.5, 'Windows 11 Pro', '2024-11-14'
-)
+),
 
 (
   'L006', 'AMD Ryzen 5 7535HS', 6, 12, 3300 , 4550, 8, 'DDR5',
@@ -47,7 +47,7 @@ VALUES
   'Dual Speakers', '1x USB-C, 2x USB-A, 1x HDMI, 1x RJ-45, 1x 3.5mm Audio',
   'Wi-Fi 6, Bluetooth 5.2', '720p Webcam', 'OMEN Gaming Hub, Mica Silver',
   'Yes', '35.79 x 25.5 x 2.35 cm', 2290, 'Plastic', 70, 'Windows 11 Home', '2024-03-10'
-);
+),
 
 (
   'L007', 'Intel Core Ultra 7 155H', 16, 22, 1400, 4800, 16, 'LPDDR5X',
@@ -55,7 +55,7 @@ VALUES
   'Stereo Speakers', '2x USB-C Thunderbolt 4, 2x USB-A 3.2 Gen 1, 1x HDMI 2.1, 1x 3.5mm Audio, 1x MicroSD Card Reader', 'Wi-Fi 7, Bluetooth 5.3',
   '1080p Webcam', 'Acer AI Zone, Copilot, MIL-STD-810H', 'Yes',
   '312.9 x 217.9 x 14.9 mm', 1300, 'Aluminum', 65, 'Windows 11', '2024-01-10'
-);
+),
 
 (
   'L008', 'Intel Core i5-12450H', 8, 12, 2000, 4400, 16, 'DDR4',
@@ -63,7 +63,7 @@ VALUES
   'Nahimic 3, Hi-Res Audio', '1x USB-C 3.2 Gen 1, 3x USB-A 3.2 Gen 1, 1x HDMI 2.0, 1x RJ-45, 1x 3.5mm Audio', 'Wi-Fi 6, Bluetooth 5.2',
   'HD Webcam', 'Red Backlit Keyboard, Thin Bezel', 'Yes',
   '359 x 254 x 21.7 mm', 1860, 'Aluminum', 51, 'Windows 11', '2024-01-10'
-);
+),
 
 (
   'L009', 'Intel Core Ultra 5 125H', 14, 18, 1200, 4500, 16, 'LPDDR5',
@@ -71,7 +71,7 @@ VALUES
   'Stereo Speakers', '2x USB-C (USB4, Thunderbolt 4), 1x USB-A 3.2 Gen 1, 1x HDMI 2.1, 1x 3.5mm Audio, 1x MicroSD Card Reader', 'Wi-Fi 7, Bluetooth 5.4',
   '1080p Webcam', 'Fingerprint Reader, Backlit Keyboard', 'Yes',
   '312.9 x 217.9 x 14.9 mm', 1300, 'Aluminum', 65, 'Windows 11', '2024-01-10'
-);
+),
 
 (
   'L010', 'Intel Core i9-14900HX', 24, 32, 2200, 5800, 64, 'DDR5',
@@ -81,3 +81,34 @@ VALUES
   '397 x 330 x 23 mm', 3100, 'Aluminum', 99.9, 'Windows 11', '2024-02-20'
 );
 
+-- ************************************************************** --
+-- **************************INSERT MOUSE************************ --
+-- ************************************************************** --
+
+INSERT INTO CATEGORY_MOUSE 
+(
+    PRODUCT_ID, SWITCH, IPS, LED, LIFESPAN, RESPOND_RATE,
+    DESIGN, BATTERY_LIFE, DIMENSION, MOUSE_WEIGHT, COLOR,
+    TYPE_CONNECT, CONNECTION_RANGE, SENSOR, BUTTONS
+)
+
+VALUES 
+('MOUSE001', 'Omron', 400, 'RGB', 50000000, 1, 'Ergonomic', 70, '125 x 65 x 40 mm', 85, 'Black', 'Wireless (USB Receiver)', 10, 'Optical', 6),
+
+('MOUSE002', 'Huano', 300, 'Red', 20000000, 2, 'Ambidextrous', 60, '120 x 63 x 38 mm', 78, 'White', 'Wired (USB)', 0, 'Laser', 5),
+
+('MOUSE003', 'Kailh', 650, 'RGB', 80000000, 1, 'Claw Grip', 90, '130 x 70 x 42 mm', 95, 'Gray', 'Wireless + Wired', 15, 'Optical', 8),
+
+('MOUSE004', 'Omron', 500, 'Blue', 50000000, 1, 'Vertical', 80, '115 x 60 x 45 mm', 100, 'Black', 'Bluetooth', 10, 'Optical', 7),
+
+('MOUSE005', 'TTC', 400, 'RGB', 60000000, 1, 'Gaming', 50, '118 x 64 x 39 mm', 88, 'Red', 'Wired (USB)', 0, 'Laser', 9),
+
+('MOUSE006', 1, 'Razer Green', 650, 'RGB Chroma', 70000000, 1, 'Ergonomic', 90, '126 x 66 x 38 mm', 82, 'Green', 'Wireless + Wired', 12, 'Optical', 7),
+
+('MOUSE007', 1, 'Logitech D2FC', 300, 'White', 50000000, 2, 'Symmetrical', 60, '121 x 62 x 40 mm', 75, 'Blue', 'Wired (USB)', 0, 'Laser', 6),
+
+('MOUSE008', 1, 'Omron', 450, 'RGB', 50000000, 1, 'Palm Grip', 85, '129 x 68 x 41 mm', 89, 'Black-Red', 'Wireless (USB Receiver)', 10, 'Optical', 8),
+
+('MOUSE009', 1, 'Kailh GM8.0', 600, 'RGB', 80000000, 1, 'Ergonomic', 100, '135 x 70 x 43 mm', 92, 'Silver', 'Bluetooth', 15, 'Optical', 9),
+
+('MOUSE010', 1, 'Huano Blue', 350, 'Green', 30000000, 1, 'Fingertip Grip', 50, '117 x 60 x 38 mm', 76, 'White-Gray', 'Wired (USB)', 0, 'Laser', 5);
