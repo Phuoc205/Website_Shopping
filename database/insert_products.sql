@@ -272,7 +272,8 @@ INSERT INTO CATEGORY_CONSOLE (
 INSERT INTO CATEGORY_TABLE 
 (
   PRODUCT_ID, MATERIAL, DIMENSION, COLOR
-) VALUES 
+)
+VALUES 
 ('TAB001', 'Steel Frame + Carbon Fiber Surface', '120 x 60 x 75 cm', 'Black'),
 
 ('TAB002', 'MDF + Powder-coated Steel', '140 x 60 x 75 cm', 'White'),
