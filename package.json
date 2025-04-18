@@ -1,0 +1,27 @@
+{
+  "name": "website_shopping",
+  "version": "1.0.0",
+  "description": "Hướng dẫn cài đặt và sử dụng.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/routes/product.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phuoc205/Website_Shopping.git"
+  },
+  "keywords": [],
+  "author": "Database team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phuoc205/Website_Shopping/issues"
+  },
+  "homepage": "https://github.com/Phuoc205/Website_Shopping#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1"
+  }
+}
