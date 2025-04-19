@@ -36,12 +36,13 @@
     justify-content: space-between;
 }
 .banner_main {
-    padding: 0 10px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 .banner_main_img {
     height: 430px;
     width: auto;
+    border-radius: 10px;
 }
 
 /* Banner */
